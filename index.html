@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <title>Samuel G. Enriquez's Resume Page</title>
+    <link rel="stylesheet" href="site.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img id="headshot" src="img/headshot.jpg" alt="Samuel G. Enriquez">
+            <h1 id="siteName">Samuel G. Enriquez</h1>
+
+            <ul id="menu">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <p><strong>Purpose:</strong> This is a resume (or CV) to help me get a Software Engineering position.</p>
+
+            <h2>Experience</h2>
+            <div class="experience">
+                <p class="title">Accenture - 2018-Present</p>
+                <p>Full Stack Engineering Specialist</p>
+            </div>
+            <div class="experience">
+                <p class="title">Acme Corp. - 2005-2017</p>
+                <p>Software Developer</p>
+            </div>
+            <div class="experience">
+                <p class="title">Engineering Startup - 2004-2005</p>
+                <p>Engineering Apprentice</p>
+            </div>
+        </main>
+
+        <aside>
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <div id="formInfo"></div>
+                <div>
+                    <label for="fullName">Full Name</label>
+                </div>
+                <div>
+                    <input id="fullName" />
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                </div>
+                <div>
+                    <input id="email" type="email" />
+                </div>
+
+                <div>
+                    <label for="subject">Subject</label>
+                </div>
+                <div>
+                    <select id="subject">
+                        <option>Job Offer</option>
+                        <option>Personal Message</option>
+                        <option>Complaint</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="msg">Message</label>
+                </div>
+                <div>
+                    <textarea id="msg" rows="4"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Send Mail" />
+                </div>
+            </form>
+        </aside>
+
+        <footer>
+            &copy; 2022 Copyright - Samuel G. Enriquez
+        </footer>
+
+    </div>
+   <script type="module" src="index.js"></script>
+</body>
+
+</html>
